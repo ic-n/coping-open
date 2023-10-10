@@ -1,0 +1,1 @@
+Press the start button to start the countdown. It is located directly below the clock.

@@ -1,0 +1,1 @@
+You will have the progress of picking the lock in front of you - this gives you time to think and change your mind. You can leave the lock, or you can wait and open it. You can change your mind even when the lock picking is complete.

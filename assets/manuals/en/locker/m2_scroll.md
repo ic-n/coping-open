@@ -1,0 +1,1 @@
+To select how long you want to set the timer, you can scroll up and down the minutes and hours indicator.

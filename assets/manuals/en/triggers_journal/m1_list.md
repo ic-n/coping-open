@@ -1,0 +1,1 @@
+The Trigger Diary on the Triggers screen shows a list of events. Each event has a time and category tracker and an impulse in the expression from 1 to 10. To open the details, tap the round element on which the trigger pulse power is written.

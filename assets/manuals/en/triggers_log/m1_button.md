@@ -1,0 +1,1 @@
+When you feel like you want to derail, try to understand what triggers your reaction. Select or create a trigger with the plus button. Tapping on the trigger button will open a window.

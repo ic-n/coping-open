@@ -1,0 +1,1 @@
+Also on this screen are popular triggers, those that are most common in everyday life. You can start with them. To add popular tracks to your trigger list, you need to click on it.

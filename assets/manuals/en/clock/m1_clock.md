@@ -1,0 +1,1 @@
+The main screen has a clock that shows how long you've been resisting addiction.

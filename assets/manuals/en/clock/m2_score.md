@@ -1,0 +1,1 @@
+It also displays your score. This metric shows how strong your addiction is. The first time you run the app, it displays zero, but this number will increase over time. This metric is needed so that you can understand how strong the addiction is.

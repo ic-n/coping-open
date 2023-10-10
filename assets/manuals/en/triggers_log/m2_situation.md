@@ -1,0 +1,1 @@
+In this window, specify the situation: describe the details that seem essential to you. It should be an unemotional description. For example, I woke up, drank coffee, and remembered my smoking habit.

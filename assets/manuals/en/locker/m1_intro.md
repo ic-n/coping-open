@@ -1,0 +1,1 @@
+The locker allows you to set a timer as far as how much you want to ban yourself from things that trigger your addiction.

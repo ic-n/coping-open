@@ -1,0 +1,1 @@
+After selecting the duration, tap on the lock button to start the countdown. From now on, you are faced with the challenge of staying on track.

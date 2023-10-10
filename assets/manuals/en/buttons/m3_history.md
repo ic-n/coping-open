@@ -1,0 +1,1 @@
+Next to them is a history button. It will display the history of timer stops and starts in a new window on tap.

@@ -1,0 +1,1 @@
+The next screen called triggers provides a list of your triggers. A trigger is something in the world around you that encourages you to disengage in quit. Once you add a trigger here (read on) you can click on it to add an entry to your diary. If you want to delete it, you hold down the trigger button.

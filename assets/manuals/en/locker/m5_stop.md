@@ -1,0 +1,1 @@
+In the event that you are unable to resist your addiction, press the button to unlock it before breaking down. This will give you a chance to think again about whether your addiction is really so overwhelming.

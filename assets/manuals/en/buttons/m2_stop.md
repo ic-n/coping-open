@@ -1,0 +1,1 @@
+To stop the countdown, press the stop button. The start button and the stop button are in the same place. Which one you see depends on the state of the clock.

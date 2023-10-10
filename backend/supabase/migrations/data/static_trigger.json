@@ -1,0 +1,102 @@
+[
+    {
+        "id": 3,
+        "related_addiction": "smoking",
+        "author": "Nick",
+        "label": "Coffee",
+        "v2_labels": {
+            "en": "Coffee",
+            "ru": "Кофе"
+        }
+    },
+    {
+        "id": 4,
+        "related_addiction": "smoking",
+        "author": "Nick",
+        "label": "Alcohol",
+        "v2_labels": {
+            "en": "Alcohol",
+            "ru": "Алкоголь"
+        }
+    },
+    {
+        "id": 5,
+        "related_addiction": "smoking",
+        "author": "Nick",
+        "label": "Food",
+        "v2_labels": {
+            "en": "Food",
+            "ru": "Еда"
+        }
+    },
+    {
+        "id": 6,
+        "related_addiction": "smoking",
+        "author": "Nick",
+        "label": "Driving",
+        "v2_labels": {
+            "en": "Driving",
+            "ru": "Вождение"
+        }
+    },
+    {
+        "id": 7,
+        "related_addiction": "smoking",
+        "author": "Nick",
+        "label": "Stress",
+        "v2_labels": {
+            "en": "Stress",
+            "ru": "Стресс"
+        }
+    },
+    {
+        "id": 8,
+        "related_addiction": "smoking",
+        "author": "Nick",
+        "label": "Worry",
+        "v2_labels": {
+            "en": "Worry",
+            "ru": "Беспокойство"
+        }
+    },
+    {
+        "id": 9,
+        "related_addiction": "smoking",
+        "author": "Nick",
+        "label": "Anxiety",
+        "v2_labels": {
+            "en": "Anxiety",
+            "ru": "Тревога"
+        }
+    },
+    {
+        "id": 10,
+        "related_addiction": "smoking",
+        "author": "Nick",
+        "label": "Work",
+        "v2_labels": {
+            "en": "Work",
+            "ru": "Работа"
+        }
+    },
+    {
+        "id": 11,
+        "related_addiction": "smoking",
+        "author": "Nick",
+        "label": "Neglect app",
+        "v2_labels": {
+            "en": "Neglect app",
+            "ru": "Игнор приложения"
+        }
+    },
+    {
+        "id": 12,
+        "related_addiction": "smoking",
+        "author": "Nick",
+        "label": "Boredom",
+        "v2_labels": {
+            "en": "Boredom",
+            "ru": "Скука"
+        }
+    }
+]

@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "title": "Cardiovascular risk",
+        "icon_name": "cardiology",
+        "related_addiction": "smoking",
+        "author": "",
+        "links": null,
+        "descriptions": {
+            "0": "Rest assured, your heart rate will gradually decrease and reach a steady, balanced rhythm.",
+            "1": "You have achieved an improvement in the steadiness and reduced pace of your heart rate."
+        },
+        "rate_seconds": 86400,
+        "v2_titles": {
+            "en": "Cardiovascular risk",
+            "ru": "Сердечно-сосудистый риск"
+        },
+        "v2_descriptions": {
+            "en": "After quiting, your heart rate will gradually decrease and reach a steady, balanced rhythm.",
+            "ru": "После того, как вы бросите курить, ваш сердечный ритм постепенно замедлится и достигнет устойчивого, сбалансированного ритма."
+        }
+    },
+    {
+        "id": 2,
+        "title": "Carbon monoxide in blood",
+        "icon_name": "humidity_percentage",
+        "related_addiction": "smoking",
+        "author": "",
+        "links": null,
+        "descriptions": {
+            "0.0": "As blood carbon monoxide (CO) levels decrease, there is a clear and certain improvement in oxygen delivery, leading to a significant enhancement of overall oxygenation of muscles, organs and tissues."
+        },
+        "rate_seconds": 1900800,
+        "v2_titles": {
+            "en": "Carbon monoxide in blood",
+            "ru": "Угарный газ в крови"
+        },
+        "v2_descriptions": {
+            "en": "As blood carbon monoxide (CO) levels decrease, there is a clear and certain improvement in oxygen delivery, leading to a significant enhancement of overall oxygenation of muscles, organs and tissues.",
+            "ru": "Поскольку уровень монооксида углерода (CO) в крови снижается, наблюдается явное и определенное улучшение доставки кислорода, что приводит к значительному повышению общей оксигенации мышц, органов и тканей."
+        }
+    },
+    {
+        "id": 3,
+        "title": "Anixiety",
+        "icon_name": "psychology_alt",
+        "related_addiction": "smoking",
+        "author": "",
+        "links": null,
+        "descriptions": {
+            "0": "Within six weeks of quitting smoking, you can expect a significant decrease in anxiety levels. As your body detoxifies and adjusts to a smoke-free lifestyle, you'll experience a noticeable improvement in overall calmness and well-being."
+        },
+        "rate_seconds": 1209600,
+        "v2_titles": {
+            "en": "Anixiety",
+            "ru": "Тревожность"
+        },
+        "v2_descriptions": {
+            "en": "Within six weeks of quitting smoking, you can expect a significant decrease in anxiety levels. As your body detoxifies and adjusts to a smoke-free lifestyle, you'll experience a noticeable improvement in overall calmness and well-being.",
+            "ru": "Через шесть недель после отказа от курения вы можете ожидать значительного снижения уровня беспокойства. По мере того, как ваше тело очищается от токсинов и приспосабливается к бездымному образу жизни, вы почувствуете заметное улучшение общего спокойствия и самочувствия."
+        }
+    },
+    {
+        "id": 4,
+        "title": "Depression",
+        "icon_name": "psychology",
+        "related_addiction": "smoking",
+        "author": "",
+        "links": null,
+        "descriptions": {
+            "0": "As the harmful effects of nicotine diminish your body adjusts to a healthier state. Many individuals report a decrease in depressive feelings and an overall improvement in mood during this timeframe. This progress is a significant achievement on your journey toward better emotional well-being."
+        },
+        "rate_seconds": 1814400,
+        "v2_titles": {
+            "en": "Depression",
+            "ru": "Депрессия"
+        },
+        "v2_descriptions": {
+            "en": "As the harmful effects of nicotine diminish your body adjusts to a healthier state. Many individuals report a decrease in depressive feelings and an overall improvement in mood during this timeframe. This progress is a significant achievement on your journey toward better emotional well-being.",
+            "ru": "Поскольку вредное воздействие никотина уменьшается, ваше тело приспосабливается к более здоровому состоянию. Многие люди сообщают об уменьшении депрессивных ощущений и общем улучшении настроения в течение этого периода времени. Этот прогресс является значительным достижением на вашем пути к лучшему эмоциональному благополучию."
+        }
+    },
+    {
+        "id": 5,
+        "title": "Stress",
+        "icon_name": "cognition",
+        "related_addiction": "smoking",
+        "author": "",
+        "links": null,
+        "descriptions": {
+            "0": "Quitting smoking for six weeks reliably leads to a noticeable reduction in stress levels. Despite the fact that smoking cessation itself can be stressful, people commonly experience increased calmness and relaxation during this period as smoking's negative impact on stress descends. This positive change in stress reduction is a significant milestone toward improving your overall well-being."
+        },
+        "rate_seconds": 604800,
+        "v2_titles": {
+            "en": "Stress",
+            "ru": "Стресс"
+        },
+        "v2_descriptions": {
+            "en": "Quitting smoking for six weeks reliably leads to a noticeable reduction in stress levels. Despite the fact that smoking cessation itself can be stressful, people commonly experience increased calmness and relaxation during this period as smoking's negative impact on stress descends. This positive change in stress reduction is a significant milestone toward improving your overall well-being.",
+            "ru": "Отказ от курения в течение шести недель достоверно приводит к заметному снижению уровня стресса. Несмотря на то, что отказ от курения сам по себе может вызывать стресс, люди обычно испытывают повышенное спокойствие и расслабленность в этот период, поскольку негативное влияние курения на стресс снижается. Это положительное изменение в снижении стресса является важной вехой на пути к улучшению вашего общего самочувствия"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Mental quality of life",
+        "icon_name": "psychiatry",
+        "related_addiction": "smoking",
+        "author": "",
+        "links": null,
+        "descriptions": {
+            "0": "Smoking cessation brings positive changes to mental quality of life, including improved mental health, enhanced cognitive functioning, increased self-esteem, better physical health, rebuilding relationships, increased productivity and success, emotional stability, and the discovery of new interests and hobbies. These changes contribute to an overall improved quality of life for individuals who choose to leave behind their dependencies."
+        },
+        "rate_seconds": 3628800,
+        "v2_titles": {
+            "en": "Mental quality of life",
+            "ru": "Психическое благополучие"
+        },
+        "v2_descriptions": {
+            "en": "Smoking cessation brings positive changes to mental quality of life, including improved mental health, enhanced cognitive functioning, increased self-esteem, better physical health, rebuilding relationships, increased productivity and success, emotional stability, and the discovery of new interests and hobbies. These changes contribute to an overall improved quality of life for individuals who choose to leave behind their dependencies.",
+            "ru": "Отказ от курения приносит положительные изменения в психическое качество жизни, включая улучшение психического здоровья, улучшение когнитивных функций, повышение самооценки, улучшение физического здоровья, восстановление отношений, повышение производительности и успеха, эмоциональную стабильность и открытие новых интересов и увлечений. Эти изменения способствуют общему улучшению качества жизни людей, которые решили оставить позади свои зависимости."
+        }
+    }
+]

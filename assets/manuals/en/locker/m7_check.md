@@ -1,0 +1,1 @@
+If you resisted the addiction for the entire allotted time, a checkmark will appear on the icon; if you derail, no checkmark will appear.

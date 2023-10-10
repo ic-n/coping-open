@@ -1,0 +1,1 @@
+Popular triggers are only necessary to speed up the start of your work on yourself. Please think about what triggers you and add them yourself. For this, there is a plus button.

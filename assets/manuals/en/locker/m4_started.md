@@ -1,0 +1,1 @@
+The running timer is highlighted in color and counts down the time. As soon as it reaches zero - you have succeeded.
