@@ -1,0 +1,2437 @@
+commit 9085b8ce5c4264d666387e869e564c788f6a5d07
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Thu Oct 5 09:40:02 2023 +0200
+
+    feat: wip chart
+
+M	lib/main.dart
+M	lib/pages/clock/chart.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/locker.dart
+M	lib/pages/clock/modals/time_manager.dart
+M	lib/provider/countdown/countdown.dart
+M	lib/provider/login/login.dart
+
+commit 138413617ea655c7df4833e838cd5b97cd878119
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Sep 27 23:36:36 2023 +0200
+
+    feat: better chart
+
+M	lib/pages/clock/chart.dart
+M	pubspec.yaml
+
+commit 98179905de72893326cbb734455bdd61199902c8
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Sep 27 23:17:22 2023 +0200
+
+    build: update flutter
+
+M	.metadata
+M	README.md
+M	assets/icons/settings.svg
+D	integration_test/.gitignore
+D	integration_test/app_test.dart
+D	ios/OneSignalNotificationServiceExtension/Info.plist
+D	ios/OneSignalNotificationServiceExtension/NotificationService.h
+D	ios/OneSignalNotificationServiceExtension/NotificationService.m
+D	ios/OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements
+M	ios/Podfile
+M	ios/Podfile.lock
+M	ios/Runner.xcodeproj/project.pbxproj
+M	ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+M	ios/Runner/AppDelegate.swift
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+D	ios/Runner/Assets.xcassets/Contents.json
+A	ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md
+M	ios/Runner/Base.lproj/Main.storyboard
+M	ios/Runner/Info.plist
+D	ios/Runner/Runner.entitlements
+A	ios/RunnerTests/RunnerTests.swift
+D	ios/RunnerUITests/RunnerUITests.m
+M	lib/notifications.dart
+M	lib/provider/login/login.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit 7348083e90d280e9dd2ea18bdd4266fe0e55871e
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Sep 27 21:36:20 2023 +0200
+
+    style: naming of chart data
+
+M	lib/pages/clock/chart.dart
+M	pubspec.yaml
+
+commit a08fae095f1efafb137a15813fb9f34c10aee4d6
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Sep 27 21:31:55 2023 +0200
+
+    feat: add resets chart
+
+A	lib/pages/clock/chart.dart
+M	lib/pages/clock/countdown.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit 810b9db142ee18dfce149dfdcb9318a6c67d1e0a
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sat Aug 26 11:57:48 2023 +0200
+
+    feat: update images and styles, fix animation bug
+
+M	lib/modals/help.dart
+M	lib/modals/help_pages/_guy.dart
+M	lib/provider/theme/colors.dart
+
+commit 2fe1ee6629285f608570f88647c8d45d93f1b98a
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sat Aug 26 10:40:25 2023 +0200
+
+    feat: change icons, add discord, fix notifications
+
+M	assets/icons/_load.dart
+M	assets/icons/add.svg
+M	assets/icons/arrow_back.svg
+M	assets/icons/assignment_turned_in.svg
+M	assets/icons/bolt.svg
+M	assets/icons/calendar_add_on.svg
+M	assets/icons/cancel.svg
+M	assets/icons/cardiology.svg
+M	assets/icons/checklist.svg
+M	assets/icons/close.svg
+M	assets/icons/cognition.svg
+M	assets/icons/content_copy.svg
+M	assets/icons/dark_mode.svg
+M	assets/icons/delete.svg
+M	assets/icons/developer_guide.svg
+A	assets/icons/diversity_1.svg
+M	assets/icons/done.svg
+M	assets/icons/edit.svg
+M	assets/icons/expand_more.svg
+M	assets/icons/heart_check.svg
+M	assets/icons/help.svg
+M	assets/icons/history.svg
+M	assets/icons/home.svg
+M	assets/icons/humidity_percentage.svg
+M	assets/icons/info.svg
+M	assets/icons/light_mode.svg
+A	assets/icons/live_help.svg
+M	assets/icons/lock.svg
+M	assets/icons/lock_open.svg
+M	assets/icons/mindfulness.svg
+M	assets/icons/more.svg
+M	assets/icons/no_encryption.svg
+M	assets/icons/palette.svg
+M	assets/icons/play_arrow.svg
+M	assets/icons/play_circle.svg
+M	assets/icons/psychiatry.svg
+M	assets/icons/psychology.svg
+M	assets/icons/psychology_alt.svg
+M	assets/icons/punch_clock.svg
+M	assets/icons/relax.svg
+M	assets/icons/settings.svg
+M	assets/icons/sticky_note_2.svg
+M	assets/icons/stop.svg
+M	assets/icons/stop_circle.svg
+M	assets/icons/timer.svg
+M	assets/icons/timer_off.svg
+M	assets/icons/trophy.svg
+M	assets/icons/verified.svg
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+A	ios/Runner/Assets.xcassets/Contents.json
+A	lib/discord/discord.dart
+M	lib/gen/assets.gen.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/locker.dart
+M	lib/provider/countdown/countdown.dart
+M	lib/tokens/topbar.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit a6749f8ba5f5be79ccdb29e15ea1d0f011974226
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Aug 23 19:20:24 2023 +0200
+
+    fix: remove splash leftovers
+
+D	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+D	ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md
+D	ios/Runner/Assets.xcassets/LaunchImage.imageset/cloudcircle-pb 1.png
+D	ios/Runner/Assets.xcassets/LaunchImage.imageset/cloudcircle-pb 2.png
+D	ios/Runner/Assets.xcassets/LaunchImage.imageset/cloudcircle-pb.png
+M	ios/Runner/Info.plist
+M	pubspec.yaml
+
+commit 33378e85fc75770d79a71dafb7a8cc0e5a873602
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Aug 23 18:47:29 2023 +0200
+
+    feat: new icon and splash management
+
+A	assets/build/.last_build_id
+A	assets/icon-src.svg
+M	assets/logo-pb.png
+A	assets/logo-pbo.png
+M	ios/Podfile.lock
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-50x50@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-50x50@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png
+A	ios/Runner/Assets.xcassets/LaunchBackground.imageset/Contents.json
+A	ios/Runner/Assets.xcassets/LaunchBackground.imageset/background.png
+M	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json
+A	ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png
+A	ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png
+A	ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png
+M	ios/Runner/Base.lproj/LaunchScreen.storyboard
+M	ios/Runner/Base.lproj/Main.storyboard
+M	ios/Runner/Info.plist
+M	lib/main.dart
+M	lib/provider/theme/colors.dart
+M	lib/provider/theme/theme.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit af70a0a2a97add7de15cdbb845385b959627e69c
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Aug 23 15:59:26 2023 +0200
+
+    build: release verion
+
+M	lib/modals/help.dart
+M	lib/pages/clock/locker.dart
+M	lib/tools/text_asset.dart
+M	pubspec.yaml
+
+commit 26d9988560cdf9bad3a96798d8fbe12cccb058d4
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Aug 23 15:21:29 2023 +0200
+
+    build: pre-release verion
+
+M	pubspec.yaml
+
+commit 459963fc3f240dad60f434de38439f74b2b08563
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Aug 23 15:14:17 2023 +0200
+
+    feat: rewrite english manuals
+
+M	assets/manuals/en/buttons/m1_start.md
+M	assets/manuals/en/buttons/m2_stop.md
+M	assets/manuals/en/buttons/m3_history.md
+M	assets/manuals/en/buttons/m4_history_modal.md
+M	assets/manuals/en/clock/m0_about.md
+M	assets/manuals/en/clock/m1_clock.md
+M	assets/manuals/en/clock/m2_score.md
+M	assets/manuals/en/locker/m1_intro.md
+M	assets/manuals/en/locker/m2_scroll.md
+M	assets/manuals/en/locker/m3_start.md
+M	assets/manuals/en/locker/m4_started.md
+M	assets/manuals/en/locker/m5_stop.md
+M	assets/manuals/en/locker/m6_lockpick.md
+M	assets/manuals/en/locker/m7_check.md
+M	assets/manuals/en/triggers/m1_pt.md
+M	assets/manuals/en/triggers/m2_dt.md
+M	assets/manuals/en/triggers/m3_plus.md
+M	assets/manuals/en/triggers/m4_add.md
+M	assets/manuals/en/triggers_journal/m1_list.md
+M	assets/manuals/en/triggers_log/m1_button.md
+M	assets/manuals/en/triggers_log/m2_situation.md
+M	assets/manuals/en/triggers_log/m3_ct.md
+M	assets/manuals/en/triggers_log/m4_impulse.md
+M	assets/manuals/en/triggers_log/m5_save.md
+
+commit cf1f3a33cddbe673e85f69b6a5d6108198b506cf
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Aug 23 15:14:00 2023 +0200
+
+    fix(manuals): add missing punctuation in locker/start
+
+M	assets/manuals/ru/locker/m3_start.md
+
+commit 93329b32f547424caaed9f90fb1b1867c16c7363
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Aug 23 14:55:34 2023 +0200
+
+    feat: rewrite manuals
+
+M	assets/manuals/en/buttons/m1_start.md
+M	assets/manuals/en/buttons/m2_stop.md
+M	assets/manuals/en/buttons/m3_history.md
+M	assets/manuals/en/buttons/m4_history_modal.md
+A	assets/manuals/en/clock/m0_about.md
+M	assets/manuals/en/clock/m1_clock.md
+M	assets/manuals/en/clock/m2_score.md
+A	assets/manuals/en/locker/m1_intro.md
+A	assets/manuals/en/locker/m2_scroll.md
+A	assets/manuals/en/locker/m3_start.md
+A	assets/manuals/en/locker/m4_started.md
+A	assets/manuals/en/locker/m5_stop.md
+A	assets/manuals/en/locker/m6_lockpick.md
+A	assets/manuals/en/locker/m7_check.md
+M	assets/manuals/en/triggers/m1_pt.md
+M	assets/manuals/en/triggers/m2_dt.md
+M	assets/manuals/en/triggers/m3_plus.md
+M	assets/manuals/en/triggers/m4_add.md
+M	assets/manuals/en/triggers_journal/m1_list.md
+M	assets/manuals/en/triggers_log/m1_button.md
+M	assets/manuals/en/triggers_log/m2_situation.md
+M	assets/manuals/en/triggers_log/m3_ct.md
+M	assets/manuals/en/triggers_log/m4_impulse.md
+M	assets/manuals/en/triggers_log/m5_save.md
+M	assets/manuals/ru/buttons/m1_start.md
+M	assets/manuals/ru/buttons/m2_stop.md
+M	assets/manuals/ru/buttons/m3_history.md
+M	assets/manuals/ru/buttons/m4_history_modal.md
+A	assets/manuals/ru/clock/m0_about.md
+M	assets/manuals/ru/clock/m1_clock.md
+M	assets/manuals/ru/clock/m2_score.md
+A	assets/manuals/ru/locker/m1_intro.md
+A	assets/manuals/ru/locker/m2_scroll.md
+A	assets/manuals/ru/locker/m3_start.md
+A	assets/manuals/ru/locker/m4_started.md
+A	assets/manuals/ru/locker/m5_stop.md
+A	assets/manuals/ru/locker/m6_lockpick.md
+A	assets/manuals/ru/locker/m7_check.md
+M	assets/manuals/ru/triggers/m1_pt.md
+M	assets/manuals/ru/triggers/m2_dt.md
+M	assets/manuals/ru/triggers/m3_plus.md
+M	assets/manuals/ru/triggers/m4_add.md
+M	assets/manuals/ru/triggers_journal/m1_list.md
+M	assets/manuals/ru/triggers_log/m1_button.md
+M	assets/manuals/ru/triggers_log/m2_situation.md
+M	assets/manuals/ru/triggers_log/m3_ct.md
+M	assets/manuals/ru/triggers_log/m4_impulse.md
+M	assets/manuals/ru/triggers_log/m5_save.md
+M	lib/l10n/app_en.arb
+M	lib/l10n/app_ru.arb
+M	lib/modals/help.dart
+M	lib/modals/help_pages/intro.dart
+M	lib/modals/help_pages/locker.dart
+M	lib/modals/profile.dart
+M	lib/pages/clock/locker.dart
+M	lib/tokens/modal.dart
+M	pubspec.yaml
+
+commit 03ab2499d100a1069f3efb6e1a5a74e9c389ff5f
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Aug 23 00:06:58 2023 +0200
+
+    feat: blueprint locker docs
+
+D	assets/manuals/en/buttons/m5_goals.md
+D	assets/manuals/en/buttons/m6_goals_modal.md
+D	assets/manuals/ru/buttons/m5_goals.md
+D	assets/manuals/ru/buttons/m6_goals_modal.md
+M	lib/l10n/app_en.arb
+M	lib/l10n/app_ru.arb
+M	lib/modals/help.dart
+M	lib/modals/help_pages/buttons.dart
+A	lib/modals/help_pages/locker.dart
+
+commit 1f01e4cb3cf736ae79d5bfb2c6b545dc8c584105
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue Aug 22 23:01:07 2023 +0200
+
+    fix: stop logic
+
+M	lib/pages/clock/locker.dart
+
+commit f8d693351cf3c7fe1b139bd89955ee5100dd086d
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue Aug 22 22:52:14 2023 +0200
+
+    fix: locker pause, animation
+
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/locker.dart
+A	lib/tokens/animation.dart
+M	macos/Podfile.lock
+
+commit 46158486211f3f6368c5c725659381b2c43fd451
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue Aug 22 19:27:50 2023 +0200
+
+    feat: add picture instead of goals
+
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/goal.dart
+M	lib/pages/clock/main.dart
+M	lib/provider/theme/colors.dart
+M	pubspec.yaml
+
+commit b8c0b63d4a53f820326ebaa65abac5f0152e7356
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue Aug 22 09:06:59 2023 +0200
+
+    feat: locker is done
+
+A	assets/icons/no_encryption.svg
+A	assets/icons/trophy.svg
+A	backend/supabase/migrations/20230822095858_add_locker_set.sql
+M	lib/gen/assets.gen.dart
+M	lib/l10n/app_en.arb
+M	lib/l10n/app_ru.arb
+M	lib/main.dart
+M	lib/modals/profile.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/locker.dart
+A	lib/provider/locker/locker.dart
+M	lib/storage/init.dart
+A	lib/storage/locker.dart
+M	lib/tokens/topbar.dart
+
+commit b80c6fa3d50a410260dc7683a01bf12bbd6a7d89
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue Aug 22 05:43:11 2023 +0200
+
+    feat: locker
+
+A	assets/icons/lock.svg
+A	assets/icons/lock_open.svg
+A	assets/icons/punch_clock.svg
+R100	assets/manuals/en/buttons/1_start.md	assets/manuals/en/buttons/m1_start.md
+R100	assets/manuals/en/buttons/2_stop.md	assets/manuals/en/buttons/m2_stop.md
+R100	assets/manuals/en/buttons/3_history.md	assets/manuals/en/buttons/m3_history.md
+R100	assets/manuals/en/buttons/4_history_modal.md	assets/manuals/en/buttons/m4_history_modal.md
+R100	assets/manuals/en/buttons/5_goals.md	assets/manuals/en/buttons/m5_goals.md
+R100	assets/manuals/en/buttons/6_goals_modal.md	assets/manuals/en/buttons/m6_goals_modal.md
+R100	assets/manuals/en/clock/1_clock.md	assets/manuals/en/clock/m1_clock.md
+R100	assets/manuals/en/clock/2_score.md	assets/manuals/en/clock/m2_score.md
+R100	assets/manuals/en/triggers/1_pt.md	assets/manuals/en/triggers/m1_pt.md
+R100	assets/manuals/en/triggers/2_dt.md	assets/manuals/en/triggers/m2_dt.md
+R100	assets/manuals/en/triggers/3_plus.md	assets/manuals/en/triggers/m3_plus.md
+R100	assets/manuals/en/triggers/4_add.md	assets/manuals/en/triggers/m4_add.md
+R100	assets/manuals/en/triggers_journal/1_list.md	assets/manuals/en/triggers_journal/m1_list.md
+R100	assets/manuals/en/triggers_log/1_button.md	assets/manuals/en/triggers_log/m1_button.md
+R100	assets/manuals/en/triggers_log/2_situation.md	assets/manuals/en/triggers_log/m2_situation.md
+R100	assets/manuals/en/triggers_log/3_ct.md	assets/manuals/en/triggers_log/m3_ct.md
+R100	assets/manuals/en/triggers_log/4_impulse.md	assets/manuals/en/triggers_log/m4_impulse.md
+R100	assets/manuals/en/triggers_log/5_save.md	assets/manuals/en/triggers_log/m5_save.md
+R100	assets/manuals/ru/buttons/1_start.md	assets/manuals/ru/buttons/m1_start.md
+R100	assets/manuals/ru/buttons/2_stop.md	assets/manuals/ru/buttons/m2_stop.md
+R100	assets/manuals/ru/buttons/3_history.md	assets/manuals/ru/buttons/m3_history.md
+R100	assets/manuals/ru/buttons/4_history_modal.md	assets/manuals/ru/buttons/m4_history_modal.md
+R100	assets/manuals/ru/buttons/5_goals.md	assets/manuals/ru/buttons/m5_goals.md
+R100	assets/manuals/ru/buttons/6_goals_modal.md	assets/manuals/ru/buttons/m6_goals_modal.md
+R100	assets/manuals/ru/clock/1_clock.md	assets/manuals/ru/clock/m1_clock.md
+R100	assets/manuals/ru/clock/2_score.md	assets/manuals/ru/clock/m2_score.md
+R100	assets/manuals/ru/triggers/1_pt.md	assets/manuals/ru/triggers/m1_pt.md
+R100	assets/manuals/ru/triggers/2_dt.md	assets/manuals/ru/triggers/m2_dt.md
+R100	assets/manuals/ru/triggers/3_plus.md	assets/manuals/ru/triggers/m3_plus.md
+R100	assets/manuals/ru/triggers/4_add.md	assets/manuals/ru/triggers/m4_add.md
+R100	assets/manuals/ru/triggers_journal/1_list.md	assets/manuals/ru/triggers_journal/m1_list.md
+R100	assets/manuals/ru/triggers_log/1_button.md	assets/manuals/ru/triggers_log/m1_button.md
+R100	assets/manuals/ru/triggers_log/2_situation.md	assets/manuals/ru/triggers_log/m2_situation.md
+R100	assets/manuals/ru/triggers_log/3_ct.md	assets/manuals/ru/triggers_log/m3_ct.md
+R100	assets/manuals/ru/triggers_log/4_impulse.md	assets/manuals/ru/triggers_log/m4_impulse.md
+R100	assets/manuals/ru/triggers_log/5_save.md	assets/manuals/ru/triggers_log/m5_save.md
+A	assets/nkpub.svg
+M	lib/gen/assets.gen.dart
+M	lib/modals/help_pages/buttons.dart
+M	lib/modals/help_pages/intro.dart
+M	lib/modals/help_pages/triggers.dart
+M	lib/modals/help_pages/triggers_journal.dart
+M	lib/modals/help_pages/triggers_log.dart
+M	lib/pages/clock/countdown.dart
+A	lib/pages/clock/locker.dart
+M	lib/pages/clock/main.dart
+M	lib/provider/theme/theme.dart
+M	lib/storage/init.dart
+M	lib/storage/profiles.dart
+M	lib/tokens/topbar.dart
+M	pubspec.yaml
+
+commit 91a28961d20208d45e980a14ad2b0160f5cebf45
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Aug 20 08:56:22 2023 +0200
+
+    feat: registration-less
+
+M	assets/icons/cognition.svg
+A	assets/icons/content_copy.svg
+M	assets/icons/psychology.svg
+M	assets/icons/relax.svg
+M	lib/gen/assets.gen.dart
+M	lib/l10n/app_en.arb
+M	lib/l10n/app_ru.arb
+M	lib/modals/profile.dart
+M	lib/provider/login/login.dart
+M	lib/storage/init.dart
+M	lib/storage/local.dart
+M	lib/tokens/topbar.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit 439e550eaf41e93f59149668a66da90e1e26195e
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sat Aug 19 16:38:32 2023 +0200
+
+    feat: add russian translations
+
+M	assets/manuals/en/buttons/1_start.md
+M	assets/manuals/en/buttons/2_stop.md
+M	assets/manuals/en/buttons/3_history.md
+M	assets/manuals/en/clock/1_clock.md
+M	assets/manuals/en/clock/2_score.md
+M	assets/manuals/en/triggers/4_add.md
+M	assets/manuals/en/triggers_log/1_button.md
+M	assets/manuals/en/triggers_log/4_impulse.md
+M	assets/manuals/ru/buttons/1_start.md
+M	assets/manuals/ru/buttons/2_stop.md
+M	assets/manuals/ru/buttons/3_history.md
+M	assets/manuals/ru/buttons/4_history_modal.md
+M	assets/manuals/ru/buttons/5_goals.md
+M	assets/manuals/ru/buttons/6_goals_modal.md
+M	assets/manuals/ru/clock/1_clock.md
+M	assets/manuals/ru/clock/2_score.md
+M	assets/manuals/ru/triggers/1_pt.md
+M	assets/manuals/ru/triggers/2_dt.md
+M	assets/manuals/ru/triggers/3_plus.md
+M	assets/manuals/ru/triggers/4_add.md
+M	assets/manuals/ru/triggers_journal/1_list.md
+M	assets/manuals/ru/triggers_log/1_button.md
+M	assets/manuals/ru/triggers_log/2_situation.md
+M	assets/manuals/ru/triggers_log/3_ct.md
+M	assets/manuals/ru/triggers_log/4_impulse.md
+M	assets/manuals/ru/triggers_log/5_save.md
+
+commit a9fae8c5a12168748b9d40cf51d9b93251efca7b
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Aug 13 23:09:35 2023 +0200
+
+    feat: add ru manuals without translations
+
+A	assets/manuals/ru/buttons/1_start.md
+A	assets/manuals/ru/buttons/2_stop.md
+A	assets/manuals/ru/buttons/3_history.md
+A	assets/manuals/ru/buttons/4_history_modal.md
+A	assets/manuals/ru/buttons/5_goals.md
+A	assets/manuals/ru/buttons/6_goals_modal.md
+A	assets/manuals/ru/clock/1_clock.md
+A	assets/manuals/ru/clock/2_score.md
+D	assets/manuals/ru/start.md
+A	assets/manuals/ru/triggers/1_pt.md
+A	assets/manuals/ru/triggers/2_dt.md
+A	assets/manuals/ru/triggers/3_plus.md
+A	assets/manuals/ru/triggers/4_add.md
+A	assets/manuals/ru/triggers_journal/1_list.md
+A	assets/manuals/ru/triggers_log/1_button.md
+A	assets/manuals/ru/triggers_log/2_situation.md
+A	assets/manuals/ru/triggers_log/3_ct.md
+A	assets/manuals/ru/triggers_log/4_impulse.md
+A	assets/manuals/ru/triggers_log/5_save.md
+M	pubspec.yaml
+
+commit e020adb16728fee801013eda1007ac9534be040a
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Aug 13 23:06:31 2023 +0200
+
+    feat: add manuals
+
+A	assets/manuals/en/triggers/1_pt.md
+A	assets/manuals/en/triggers/2_dt.md
+A	assets/manuals/en/triggers/3_plus.md
+A	assets/manuals/en/triggers/4_add.md
+A	assets/manuals/en/triggers_journal/1_list.md
+A	assets/manuals/en/triggers_log/1_button.md
+A	assets/manuals/en/triggers_log/2_situation.md
+A	assets/manuals/en/triggers_log/3_ct.md
+A	assets/manuals/en/triggers_log/4_impulse.md
+A	assets/manuals/en/triggers_log/5_save.md
+M	lib/l10n/app_en.arb
+M	lib/l10n/app_ru.arb
+M	lib/main.dart
+M	lib/modals/help.dart
+A	lib/modals/help_pages/_faker.dart
+M	lib/modals/help_pages/_handed.dart
+M	lib/modals/help_pages/_modal.dart
+M	lib/modals/help_pages/buttons.dart
+M	lib/modals/help_pages/intro.dart
+A	lib/modals/help_pages/triggers.dart
+A	lib/modals/help_pages/triggers_journal.dart
+A	lib/modals/help_pages/triggers_log.dart
+M	lib/pages/meditation/meditation.dart
+M	lib/pages/triggers/list.dart
+M	lib/provider/theme/fonts.dart
+M	lib/provider/theme/theme.dart
+M	pubspec.yaml
+
+commit 5f4142dcfa3fd891d1f3479d972cdc5778cceefd
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Aug 6 17:35:53 2023 +0200
+
+    feat: docs part one is done!
+
+A	assets/manuals/en/buttons/1_start.md
+A	assets/manuals/en/buttons/2_stop.md
+A	assets/manuals/en/buttons/3_history.md
+A	assets/manuals/en/buttons/4_history_modal.md
+A	assets/manuals/en/buttons/5_goals.md
+A	assets/manuals/en/buttons/6_goals_modal.md
+D	assets/manuals/en/buttons/start.md
+A	assets/manuals/en/clock/1_clock.md
+A	assets/manuals/en/clock/2_score.md
+A	lib/modals/help_pages/_modal.dart
+M	lib/modals/help_pages/buttons.dart
+M	lib/modals/help_pages/intro.dart
+M	lib/pages/clock/modals/goal_manager.dart
+M	lib/pages/clock/modals/time_manager.dart
+M	pubspec.yaml
+
+commit e732ec136161a7e45aff4da73cc0d9189ca5781d
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Aug 6 11:13:07 2023 +0200
+
+    fix: reset state
+
+M	lib/main.dart
+M	lib/storage/init.dart
+M	lib/tokens/modal.dart
+
+commit b67f9e5c03a194095f47df7a86e45843bd53bdc7
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Aug 6 10:07:51 2023 +0200
+
+    style: update themes
+
+M	lib/main.dart
+M	lib/provider/theme/colors.dart
+
+commit 5586813481f0bcc526f40fe28d051987598fd4bd
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Aug 6 09:41:17 2023 +0200
+
+    feat: MaterialApp once :)
+
+M	integration_test/app_test.dart
+M	lib/l10n/app_en.arb
+M	lib/l10n/app_ru.arb
+M	lib/main.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/triggers/list.dart
+M	lib/pages/triggers/log.dart
+M	lib/paginator.dart
+M	lib/storage/init.dart
+M	lib/tokens/modal.dart
+
+commit 8e896afb9ba9cd677bd4a50212d9c23cdaba3099
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue Aug 1 22:11:46 2023 +0200
+
+    feat: add notifications to retry and success
+
+M	ios/Podfile.lock
+M	ios/Runner/AppDelegate.swift
+M	lib/l10n/app_en.arb
+M	lib/l10n/app_ru.arb
+M	lib/notifications.dart
+M	lib/pages/clock/countdown.dart
+M	macos/Flutter/GeneratedPluginRegistrant.swift
+M	pubspec.lock
+M	pubspec.yaml
+
+commit 914b6df99f2ce015eabd1843e2560f787ef1bfd7
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue Aug 1 20:36:16 2023 +0200
+
+    feat: set smoking type in profile
+
+A	backend/supabase/migrations/20230801161544_add_addiction_description.sql
+M	lib/gen/assets.gen.dart
+M	lib/l10n/app_en.arb
+M	lib/l10n/app_ru.arb
+M	lib/modals/profile.dart
+M	lib/provider/login/login.dart
+M	lib/storage/profiles.dart
+M	lib/tools/text_asset.dart
+
+commit a0fbb1bfc6978c346e50a00fdd3e1c7bc6a5314d
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue Aug 1 20:15:06 2023 +0200
+
+    fix: timer issue with countdown controls
+
+M	lib/provider/countdown/countdown.dart
+M	lib/storage/reset_log.dart
+
+commit a35a59a6e08a7956d73eca9a29e37cc8e9e4db6d
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sat Jul 29 20:51:28 2023 +0200
+
+    feat: localized manuals options
+
+A	assets/manuals/en/buttons/start.md
+A	assets/manuals/ru/start.md
+M	lib/gen/assets.gen.dart
+M	lib/l10n/app_en.arb
+M	lib/l10n/app_ru.arb
+M	lib/modals/help_pages/buttons.dart
+A	lib/tools/text_asset.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit ac1681dbe3b822e1610b5c9cf5cdc57764c0634f
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sat Jul 29 20:27:55 2023 +0200
+
+    feat: manual with interactive arts
+
+A	assets/guy-hand-art.svg
+A	assets/guy/hand.svg
+M	lib/gen/assets.gen.dart
+M	lib/l10n/app_en.arb
+M	lib/l10n/app_ru.arb
+M	lib/modals/help.dart
+A	lib/modals/help_pages/_guy.dart
+A	lib/modals/help_pages/_handed.dart
+A	lib/modals/help_pages/buttons.dart
+D	lib/modals/help_pages/face.dart
+M	lib/modals/help_pages/intro.dart
+M	lib/onboarding.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/triggers/log.dart
+M	lib/tokens/measurable.dart
+M	lib/tokens/topbar.dart
+
+commit 47684f140645772a70fd35fcfc76c9e4fd46ab04
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sat Jul 29 02:31:15 2023 +0200
+
+    feat: make a guy exist
+
+A	assets/guy-art.svg
+A	assets/guy/angry.svg
+A	assets/guy/deceptive.svg
+A	assets/guy/happy.svg
+A	assets/guy/neutral.svg
+A	assets/guy/positive.svg
+A	assets/guy/sceptic.svg
+A	assets/guy/smart.svg
+M	lib/gen/assets.gen.dart
+M	lib/main.dart
+M	lib/modals/help.dart
+A	lib/modals/help_pages/face.dart
+A	lib/modals/help_pages/intro.dart
+M	lib/tokens/icons.dart
+M	lib/tokens/modal.dart
+M	pubspec.yaml
+
+commit 70c375164aaecf228ad034b560e535b5988a40a8
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue Jul 25 22:15:37 2023 +0200
+
+    feat: improve ui
+
+M	assets/icons/_load.dart
+M	assets/icons/add.svg
+M	assets/icons/arrow_back.svg
+M	assets/icons/assignment_turned_in.svg
+M	assets/icons/bolt.svg
+M	assets/icons/calendar_add_on.svg
+M	assets/icons/cancel.svg
+M	assets/icons/cardiology.svg
+M	assets/icons/checklist.svg
+M	assets/icons/close.svg
+M	assets/icons/cognition.svg
+M	assets/icons/dark_mode.svg
+M	assets/icons/delete.svg
+M	assets/icons/developer_guide.svg
+M	assets/icons/done.svg
+M	assets/icons/edit.svg
+M	assets/icons/expand_more.svg
+M	assets/icons/heart_check.svg
+M	assets/icons/help.svg
+M	assets/icons/history.svg
+M	assets/icons/home.svg
+M	assets/icons/humidity_percentage.svg
+M	assets/icons/info.svg
+M	assets/icons/light_mode.svg
+M	assets/icons/mindfulness.svg
+M	assets/icons/more.svg
+M	assets/icons/palette.svg
+M	assets/icons/play_arrow.svg
+M	assets/icons/play_circle.svg
+M	assets/icons/psychiatry.svg
+M	assets/icons/psychology.svg
+M	assets/icons/psychology_alt.svg
+M	assets/icons/relax.svg
+M	assets/icons/settings.svg
+M	assets/icons/sticky_note_2.svg
+M	assets/icons/stop.svg
+M	assets/icons/stop_circle.svg
+M	assets/icons/timer.svg
+M	assets/icons/timer_off.svg
+M	assets/icons/verified.svg
+M	lib/main.dart
+M	lib/notifications.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/goal.dart
+M	lib/provider/countdown/countdown.dart
+M	lib/provider/goal/goal.dart
+M	lib/provider/login/login.dart
+M	lib/provider/static/static.dart
+M	lib/storage/init.dart
+M	lib/tokens/icons.dart
+M	lib/tokens/measurable.dart
+M	pubspec.yaml
+
+commit 0799cb53d7cf55c071ed76f1dc8dcd7891f9e3b5
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon Jul 24 20:31:03 2023 +0200
+
+    feat: add manual
+
+A	assets/icons/developer_guide.svg
+M	lib/gen/assets.gen.dart
+M	lib/l10n/app_en.arb
+M	lib/l10n/app_ru.arb
+A	lib/modals/help.dart
+M	lib/pages/triggers/log.dart
+M	lib/tokens/icons.dart
+M	lib/tokens/topbar.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit ba4435475f32309c35deb8603271aa77b5244cae
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon Jul 24 20:12:36 2023 +0200
+
+    fix: display only if trigger events present
+
+M	lib/pages/triggers/log.dart
+M	lib/pages/triggers/triggers.dart
+
+commit 403412af8956853fa2e7043b23a0776f9d6c6512
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon Jul 24 19:56:52 2023 +0200
+
+    style: great refactor
+
+M	analysis_options.yaml
+M	assets/icons/_load.dart
+M	integration_test/app_test.dart
+M	ios/Runner/Info.plist
+M	lib/auth/auth.dart
+M	lib/home.dart
+M	lib/main.dart
+M	lib/modals/login.dart
+M	lib/modals/logout.dart
+M	lib/modals/profile.dart
+M	lib/modals/register.dart
+M	lib/notifications.dart
+M	lib/onboarding.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/goal.dart
+M	lib/pages/clock/main.dart
+M	lib/pages/clock/modals/goal_manager.dart
+M	lib/pages/clock/modals/time_manager.dart
+M	lib/pages/meditation/meditation.dart
+M	lib/pages/triggers/impulse.dart
+M	lib/pages/triggers/list.dart
+M	lib/pages/triggers/log.dart
+M	lib/pages/triggers/modals/log_event.dart
+M	lib/pages/triggers/modals/personal.dart
+M	lib/pages/triggers/triggers.dart
+M	lib/paginator.dart
+M	lib/provider/countdown/countdown.dart
+M	lib/provider/goal/goal.dart
+M	lib/provider/login/login.dart
+M	lib/provider/static/static.dart
+M	lib/provider/theme/colors.dart
+M	lib/provider/theme/theme.dart
+M	lib/provider/trigger/trigger.dart
+M	lib/storage/goal.dart
+M	lib/storage/init.dart
+M	lib/storage/local.dart
+M	lib/storage/profiles.dart
+M	lib/storage/reset_log.dart
+M	lib/storage/static.dart
+M	lib/storage/trigger.dart
+M	lib/storage/trigger_log.dart
+M	lib/tokens/cardrope.dart
+M	lib/tokens/icons.dart
+M	lib/tokens/input.dart
+M	lib/tokens/measurable.dart
+M	lib/tokens/modal.dart
+M	lib/tokens/topbar.dart
+M	lib/tools/maybe_map.dart
+M	pubspec.yaml
+
+commit a0a1d7f4e9984c5d1dc7b090abd1bdd503a9755c
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon Jul 24 00:15:55 2023 +0200
+
+    build: 1.3.3+2
+
+M	pubspec.yaml
+
+commit 17b8a3df7594409bd621debfd4fd6e141b6daf95
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon Jul 24 00:15:37 2023 +0200
+
+    feat: add stats gradient
+
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/modals/time_manager.dart
+M	lib/pages/triggers/list.dart
+M	lib/pages/triggers/log.dart
+M	lib/provider/theme/fonts.dart
+M	lib/provider/theme/theme.dart
+
+commit d06084223f4b4abd9e3144356670f1128dddff47
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Jul 23 23:52:10 2023 +0200
+
+    feat: localization of backend sources
+
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/goal.dart
+M	lib/pages/clock/modals/goal_manager.dart
+M	lib/pages/clock/modals/time_manager.dart
+M	lib/pages/triggers/list.dart
+M	lib/pages/triggers/log.dart
+M	lib/pages/triggers/triggers.dart
+A	lib/provider/theme/fonts.dart
+M	lib/provider/theme/theme.dart
+M	lib/provider/trigger/trigger.dart
+M	lib/storage/goal.dart
+M	lib/storage/static.dart
+M	lib/storage/trigger.dart
+M	lib/storage/trigger_log.dart
+M	lib/tools/maybe_map.dart
+
+commit 593506841d1da42d38b9cc211a52eb883dcff75e
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Jul 23 17:30:41 2023 +0200
+
+    feat: backend localization
+
+A	backend/supabase/migrations/20230723142400_readme.md
+A	backend/supabase/migrations/20230723142416_localize.sql
+A	backend/supabase/migrations/20230723145845_link_to_trigger.sql
+A	backend/supabase/migrations/data/static_goals.json
+A	backend/supabase/migrations/data/static_trigger.json
+
+commit dc51143eeb43713d5c351ad52a83f4818082bba0
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Jul 23 16:23:44 2023 +0200
+
+    feat: add localization
+
+A	l10n.yaml
+A	lib/gen/assets.gen.dart
+M	lib/home.dart
+A	lib/l10n/app_en.arb
+A	lib/l10n/app_ru.arb
+M	lib/main.dart
+M	lib/modals/login.dart
+M	lib/modals/logout.dart
+M	lib/modals/profile.dart
+M	lib/modals/register.dart
+M	lib/onboarding.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/goal.dart
+M	lib/pages/clock/modals/goal_manager.dart
+M	lib/pages/clock/modals/time_manager.dart
+M	lib/pages/meditation/meditation.dart
+M	lib/pages/triggers/list.dart
+M	lib/pages/triggers/log.dart
+M	lib/pages/triggers/modals/log_event.dart
+M	lib/pages/triggers/modals/personal.dart
+M	lib/pages/triggers/triggers.dart
+M	lib/paginator.dart
+M	lib/provider/theme/colors.dart
+M	lib/storage/init.dart
+M	lib/tokens/icons.dart
+M	lib/tokens/modal.dart
+M	lib/tokens/topbar.dart
+M	pubspec.yaml
+
+commit e0b8697acc9084e1bf755d990e412be5727884d3
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Jul 16 16:33:44 2023 +0200
+
+    feat: add colors
+
+M	lib/provider/theme/colors.dart
+M	pubspec.yaml
+
+commit a668da10b3fed5f0d4ea2486cc775bf0c3d2f468
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Jul 16 16:05:47 2023 +0200
+
+    feat: finish tails
+
+M	integration_test/app_test.dart
+M	lib/main.dart
+M	lib/modals/login.dart
+M	lib/modals/profile.dart
+M	lib/modals/register.dart
+M	lib/onboarding.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/modals/time_manager.dart
+M	lib/pages/meditation/meditation.dart
+M	lib/pages/triggers/list.dart
+M	lib/pages/triggers/modals/personal.dart
+M	lib/provider/countdown/countdown.dart
+M	lib/provider/login/login.dart
+M	lib/provider/trigger/trigger.dart
+M	lib/storage/init.dart
+M	lib/storage/reset_log.dart
+M	lib/storage/trigger_log.dart
+M	lib/tokens/input.dart
+M	pubspec.yaml
+
+commit e8700da59d24cd489dca17e801549d79f44242aa
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Jul 16 13:36:57 2023 +0200
+
+    test: working test with native stuff example
+
+M	integration_test/app_test.dart
+M	ios/Podfile
+M	ios/Podfile.lock
+M	ios/Runner.xcodeproj/project.pbxproj
+M	ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+A	ios/RunnerUITests/RunnerUITests.m
+
+commit 8f25ca751776750662eb9502d7c975ce5e2a8a6a
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Jul 16 11:49:29 2023 +0200
+
+    test: integrated test example
+
+A	integration_test/.gitignore
+A	integration_test/app_test.dart
+M	ios/Podfile
+M	ios/Podfile.lock
+M	pubspec.lock
+M	pubspec.yaml
+
+commit b65a8acd327aa739e8276ba892761e4ee110b160
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sat Jul 15 23:29:03 2023 +0200
+
+    feat: add triggers screen
+
+A	backend/supabase/migrations/20230715192851_add_data_to_trigger_log.sql
+A	backend/supabase/migrations/20230715195409_add_trigger_name_to_trigger_log.sql
+A	backend/supabase/migrations/20230715200352_add_trigger_type_to_trigger_log.sql
+M	lib/main.dart
+M	lib/pages/meditation/meditation.dart
+A	lib/pages/triggers/impulse.dart
+A	lib/pages/triggers/list.dart
+A	lib/pages/triggers/log.dart
+A	lib/pages/triggers/modals/log_event.dart
+A	lib/pages/triggers/modals/personal.dart
+M	lib/pages/triggers/triggers.dart
+M	lib/provider/trigger/trigger.dart
+M	lib/storage/init.dart
+M	lib/storage/trigger_log.dart
+M	lib/tokens/input.dart
+M	lib/tokens/modal.dart
+M	pubspec.yaml
+
+commit 329f74fa18548048077209ffaf917092ef95b3e7
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sat Jul 15 13:42:22 2023 +0200
+
+    style: fixes in code style
+
+M	lib/tokens/topbar.dart
+
+commit 4b6b522bf0a02775d9e40224dd118c2d0e561f04
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sat Jul 15 13:39:17 2023 +0200
+
+    feat: add notifications
+
+M	assets/icons/add.svg
+M	assets/icons/arrow_back.svg
+A	assets/icons/psychiatry.svg
+A	assets/icons/psychology_alt.svg
+A	ios/OneSignalNotificationServiceExtension/Info.plist
+A	ios/OneSignalNotificationServiceExtension/NotificationService.h
+A	ios/OneSignalNotificationServiceExtension/NotificationService.m
+A	ios/OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements
+M	ios/Podfile
+M	ios/Podfile.lock
+M	ios/Runner.xcodeproj/project.pbxproj
+M	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json
+M	ios/Runner/Info.plist
+A	ios/Runner/Runner.entitlements
+M	lib/main.dart
+A	lib/notifications.dart
+M	lib/pages/clock/modals/goal_manager.dart
+M	lib/provider/login/login.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit cdc9d7a7ef24b56c5076ca19eb3c529b7786ea1a
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Thu Jul 13 23:42:02 2023 +0200
+
+    feat: edit time screen
+
+A	assets/icons/delete.svg
+A	assets/icons/edit.svg
+A	assets/icons/play_arrow.svg
+A	assets/icons/stop.svg
+M	lib/main.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/modals/goal_manager.dart
+M	lib/pages/clock/modals/time_manager.dart
+M	lib/provider/theme/colors.dart
+M	lib/provider/theme/theme.dart
+M	lib/storage/reset_log.dart
+M	lib/tokens/modal.dart
+M	pubspec.yaml
+
+commit 18911a1a0e4859937bd02586fad208cfb19d1fe6
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Jul 12 22:12:28 2023 +0200
+
+    feat: drawer
+
+M	assets/icons/_load.dart
+M	assets/icons/add.svg
+M	assets/icons/arrow_back.svg
+M	assets/icons/assignment_turned_in.svg
+M	assets/icons/bolt.svg
+M	assets/icons/calendar_add_on.svg
+M	assets/icons/cancel.svg
+M	assets/icons/cardiology.svg
+A	assets/icons/checklist.svg
+M	assets/icons/close.svg
+M	assets/icons/cognition.svg
+M	assets/icons/dark_mode.svg
+M	assets/icons/done.svg
+M	assets/icons/expand_more.svg
+M	assets/icons/heart_check.svg
+M	assets/icons/help.svg
+A	assets/icons/history.svg
+M	assets/icons/home.svg
+M	assets/icons/humidity_percentage.svg
+M	assets/icons/info.svg
+M	assets/icons/light_mode.svg
+M	assets/icons/mindfulness.svg
+M	assets/icons/more.svg
+M	assets/icons/palette.svg
+D	assets/icons/pause.svg
+A	assets/icons/play_circle.svg
+M	assets/icons/psychology.svg
+M	assets/icons/relax.svg
+D	assets/icons/resume.svg
+M	assets/icons/settings.svg
+M	assets/icons/sticky_note_2.svg
+A	assets/icons/stop_circle.svg
+M	assets/icons/timer.svg
+A	assets/icons/timer_off.svg
+M	assets/icons/verified.svg
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/modals/goal_manager.dart
+A	lib/pages/clock/modals/time_manager.dart
+M	lib/paginator.dart
+M	lib/provider/countdown/countdown.dart
+M	lib/provider/theme/colors.dart
+M	lib/provider/theme/theme.dart
+M	lib/storage/reset_log.dart
+M	lib/tokens/modal.dart
+M	lib/tokens/topbar.dart
+
+commit dd91949e2f875f89a35adb9445962c68dbf168c4
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Jul 9 20:21:05 2023 +0200
+
+    build: 1.1.1+1
+
+A	assets/icons/_load.dart
+M	assets/icons/add.svg
+A	assets/icons/arrow_back.svg
+M	assets/icons/assignment_turned_in.svg
+D	assets/icons/back.svg
+A	assets/icons/bolt.svg
+M	assets/icons/calendar_add_on.svg
+M	assets/icons/cancel.svg
+M	assets/icons/cardiology.svg
+M	assets/icons/close.svg
+M	assets/icons/cognition.svg
+A	assets/icons/dark_mode.svg
+M	assets/icons/done.svg
+M	assets/icons/expand_more.svg
+M	assets/icons/heart_check.svg
+M	assets/icons/help.svg
+M	assets/icons/home.svg
+M	assets/icons/humidity_percentage.svg
+M	assets/icons/info.svg
+A	assets/icons/light_mode.svg
+M	assets/icons/mindfulness.svg
+D	assets/icons/mode_dark.svg
+D	assets/icons/mode_light.svg
+M	assets/icons/more.svg
+M	assets/icons/palette.svg
+M	assets/icons/pause.svg
+M	assets/icons/psychology.svg
+M	assets/icons/relax.svg
+M	assets/icons/resume.svg
+M	assets/icons/settings.svg
+A	assets/icons/sticky_note_2.svg
+D	assets/icons/stickynote.svg
+M	assets/icons/timer.svg
+M	assets/icons/verified.svg
+M	ios/Runner.xcodeproj/project.pbxproj
+M	ios/Runner/Info.plist
+M	lib/home.dart
+M	lib/main.dart
+M	lib/onboarding.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/goal.dart
+M	lib/pages/meditation/meditation.dart
+M	lib/pages/triggers/triggers.dart
+M	lib/provider/countdown/countdown.dart
+M	lib/provider/static/static.dart
+M	lib/provider/theme/colors.dart
+M	lib/provider/theme/theme.dart
+A	lib/storage/init.dart
+M	lib/tokens/topbar.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit 64c4aaf8230358d631c557a1ae8d08ddc73ea833
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon Jul 3 23:24:22 2023 +0200
+
+    build: 1.1.0+1
+
+M	README.md
+R100	assets/cloudcircle-pb.png	assets/logo-pb.png
+R100	assets/cloudcircle.png	assets/logo.png
+M	ios/Runner.xcodeproj/project.pbxproj
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-50x50@1x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-50x50@2x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@1x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@2x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@1x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@2x.png
+M	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json
+M	ios/Runner/Base.lproj/LaunchScreen.storyboard
+M	ios/Runner/Info.plist
+M	lib/home.dart
+M	lib/main.dart
+M	lib/modals/login.dart
+M	lib/modals/logout.dart
+M	lib/modals/profile.dart
+M	lib/modals/register.dart
+M	lib/onboarding.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/goal.dart
+M	lib/pages/clock/main.dart
+M	lib/pages/clock/modals/goal_manager.dart
+M	lib/pages/meditation/meditation.dart
+M	lib/pages/triggers/triggers.dart
+M	lib/paginator.dart
+M	lib/provider/countdown/countdown.dart
+M	lib/provider/goal/goal.dart
+M	lib/provider/login/login.dart
+M	lib/provider/static/static.dart
+M	lib/provider/theme/theme.dart
+M	lib/provider/trigger/trigger.dart
+M	lib/storage/goal.dart
+M	lib/storage/static.dart
+M	lib/storage/trigger_log.dart
+M	lib/tokens/modal.dart
+M	lib/tokens/topbar.dart
+M	macos/Runner.xcodeproj/project.pbxproj
+M	macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+M	macos/Runner/Configs/AppInfo.xcconfig
+M	pubspec.yaml
+
+commit 0102fd282cda48c9b1902bb70138aee557122fbe
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Fri Jun 9 20:23:20 2023 +0200
+
+    build: 1.0.7
+
+M	ios/Runner.xcodeproj/project.pbxproj
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+D	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-50x50@1x.png
+D	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-50x50@2x.png
+D	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@1x.png
+D	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@2x.png
+D	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@1x.png
+D	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@2x.png
+M	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json
+D	ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png
+D	ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png
+D	ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png
+A	ios/Runner/Assets.xcassets/LaunchImage.imageset/cloudcircle-pb 1.png
+A	ios/Runner/Assets.xcassets/LaunchImage.imageset/cloudcircle-pb 2.png
+A	ios/Runner/Assets.xcassets/LaunchImage.imageset/cloudcircle-pb.png
+M	ios/Runner/Info.plist
+M	pubspec.yaml
+
+commit f61a98b14ce20ceaaae36883495c978a33298ecf
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Fri Jun 9 20:12:38 2023 +0200
+
+    build: 1.0.6
+
+M	ios/Runner/Info.plist
+M	pubspec.yaml
+
+commit dacc2845511fbe5429e2be82a3283311dda6de89
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Fri Jun 9 20:06:15 2023 +0200
+
+    build: 1.0.5
+
+M	pubspec.yaml
+
+commit f21293284da07795d9b835f974cf0a23c8029b28
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Fri Jun 9 20:06:10 2023 +0200
+
+    feat: fix countdown sync
+
+A	backend/supabase/migrations/20230609080039_add_policy_update_addiction_reset_logs.sql
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/main.dart
+M	lib/pages/clock/modals/goal_manager.dart
+M	lib/pages/triggers/triggers.dart
+M	lib/provider/countdown/countdown.dart
+M	lib/storage/reset_log.dart
+
+commit 8b608d910a8d379726ac05009257a9c26b142b47
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Jun 7 21:51:07 2023 +0200
+
+    build: 1.0.4
+
+M	lib/pages/triggers/triggers.dart
+M	pubspec.yaml
+
+commit 232df18db84172b6ca28939f18763f4d0a859326
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Jun 7 21:40:00 2023 +0200
+
+    feat: total timer and play and stop
+
+A	assets/icons/pause.svg
+A	assets/icons/resume.svg
+A	backend/supabase/migrations/20230607075945_drop_profile_no_addiction_time.sql
+A	backend/supabase/migrations/20230607082640_add_remove_default_time_for_reset.sql
+M	lib/main.dart
+M	lib/modals/login.dart
+M	lib/modals/logout.dart
+M	lib/modals/profile.dart
+M	lib/modals/register.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/main.dart
+A	lib/provider/countdown/countdown.dart
+M	lib/provider/login/login.dart
+M	lib/storage/profiles.dart
+A	lib/storage/reset_log.dart
+M	pubspec.yaml
+
+commit bf5114a5f3f8a805101226cb0992429116bf53f3
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue Jun 6 22:41:45 2023 +0200
+
+    build: 1.0.3
+
+M	pubspec.yaml
+
+commit 09432f9007a9be6f81a47ee32091a6608c4d3b44
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue Jun 6 22:41:35 2023 +0200
+
+    fix: concurent writes to arrays in cubits for sync
+
+M	lib/provider/goal/goal.dart
+M	lib/provider/trigger/trigger.dart
+
+commit befdcfb48cc80e06c8d36e8ed99398f2c69caab7
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue Jun 6 22:36:01 2023 +0200
+
+    feat: add triggers screen
+
+A	backend/supabase/migrations/20230606175042_create_triggers.sql
+A	backend/supabase/migrations/20230606175624_add_triggers_log.sql
+A	backend/supabase/migrations/20230606191852_add_static_trigger_templates.sql
+M	lib/main.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/goal.dart
+M	lib/pages/clock/modals/goal_manager.dart
+M	lib/pages/meditation/meditation.dart
+M	lib/pages/triggers/triggers.dart
+M	lib/provider/goal/goal.dart
+M	lib/provider/login/login.dart
+M	lib/provider/static/static.dart
+A	lib/provider/trigger/trigger.dart
+M	lib/storage/static.dart
+A	lib/storage/trigger.dart
+A	lib/storage/trigger_log.dart
+M	macos/Podfile.lock
+
+commit 7f1c89e0314df6413b7049c9c83d4226ba3851c2
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Jun 4 21:00:57 2023 +0200
+
+    fix: remove unused imports
+
+M	lib/modals/login.dart
+
+commit 90a6851110ca864c14315c578fc35af11690e58e
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Jun 4 21:00:14 2023 +0200
+
+    feat: add login screen
+
+M	ios/Podfile.lock
+M	lib/main.dart
+M	lib/modals/login.dart
+M	lib/modals/logout.dart
+A	lib/onboarding.dart
+M	lib/pages/clock/goal.dart
+M	lib/pages/clock/modals/goal_manager.dart
+M	lib/pages/meditation/meditation.dart
+M	lib/provider/login/login.dart
+M	lib/storage/local.dart
+M	lib/storage/profiles.dart
+M	lib/tokens/modal.dart
+M	lib/tokens/topbar.dart
+M	macos/Flutter/GeneratedPluginRegistrant.swift
+M	pubspec.lock
+M	pubspec.yaml
+
+commit f043e392d6235d2ba8eca71492cf2959beb1b50a
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Jun 4 15:40:36 2023 +0200
+
+    fix: app name on Ios
+
+M	ios/Runner/Info.plist
+
+commit dbba1abdcfc52d547168844f10822b25eec9edd1
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Jun 4 15:39:50 2023 +0200
+
+    feat: button on bottom
+
+M	lib/modals/login.dart
+M	lib/modals/logout.dart
+M	lib/modals/profile.dart
+M	lib/modals/register.dart
+M	lib/tokens/modal.dart
+
+commit cc5b4104aad06b4d63987e291d9f322c8493008f
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Jun 4 15:32:08 2023 +0200
+
+    fix: app name on Ios
+
+M	ios/Runner.xcodeproj/project.pbxproj
+
+commit 53c5e9f83931a2f17f4d774b9aa683b0b0f6d33d
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Jun 4 15:29:13 2023 +0200
+
+    feat: goal management
+
+A	assets/icons/add.svg
+A	assets/icons/calendar_add_on.svg
+A	backend/supabase/migrations/20230604094216_create_goals.sql
+A	backend/supabase/migrations/20230604094217_create_public_goal_templates.sql
+A	backend/supabase/migrations/20230604094218_create_static_goal_templates.sql
+M	lib/main.dart
+M	lib/modals/login.dart
+M	lib/modals/logout.dart
+M	lib/modals/profile.dart
+M	lib/modals/register.dart
+M	lib/pages/clock/countdown.dart
+R091	lib/pages/clock/risk.dart	lib/pages/clock/goal.dart
+M	lib/pages/clock/main.dart
+A	lib/pages/clock/modals/goal_manager.dart
+M	lib/paginator.dart
+A	lib/provider/goal/goal.dart
+A	lib/provider/static/static.dart
+M	lib/provider/theme/theme.dart
+A	lib/storage/goal.dart
+A	lib/storage/static.dart
+A	lib/tokens/modal.dart
+M	lib/tokens/topbar.dart
+A	lib/tools/maybe_map.dart
+M	pubspec.yaml
+
+commit 13a2aac96d8eb881f4540ea9d2df248035e3ff15
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sat Jun 3 12:25:33 2023 +0200
+
+    feat: count resets
+
+A	backend/supabase/migrations/20230603100328_rename_smoking_to_addiction.sql
+R100	lib/subpages/login.dart	lib/modals/login.dart
+R100	lib/subpages/logout.dart	lib/modals/logout.dart
+R089	lib/subpages/profile.dart	lib/modals/profile.dart
+R100	lib/subpages/register.dart	lib/modals/register.dart
+M	lib/pages/clock/main.dart
+M	lib/paginator.dart
+M	lib/provider/login/login.dart
+M	lib/storage/profiles.dart
+
+commit d3ec104d5776e6231d59c5f60253f4560299de38
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sat Jun 3 12:25:21 2023 +0200
+
+    chore: remove leftover
+
+D	backend/.gitignore
+D	backend/.metadata
+D	backend/README.md
+D	backend/analysis_options.yaml
+D	backend/ios/.gitignore
+D	backend/ios/Flutter/AppFrameworkInfo.plist
+D	backend/ios/Flutter/Debug.xcconfig
+D	backend/ios/Flutter/Release.xcconfig
+D	backend/ios/Runner.xcodeproj/project.pbxproj
+D	backend/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+D	backend/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+D	backend/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+D	backend/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+D	backend/ios/Runner.xcworkspace/contents.xcworkspacedata
+D	backend/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+D	backend/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+D	backend/ios/Runner/AppDelegate.swift
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png
+D	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png
+D	backend/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json
+D	backend/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png
+D	backend/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png
+D	backend/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png
+D	backend/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md
+D	backend/ios/Runner/Base.lproj/LaunchScreen.storyboard
+D	backend/ios/Runner/Base.lproj/Main.storyboard
+D	backend/ios/Runner/Info.plist
+D	backend/ios/Runner/Runner-Bridging-Header.h
+D	backend/ios/Runner/Runner.entitlements
+D	backend/ios/RunnerTests/RunnerTests.swift
+D	backend/lib/main.dart
+D	backend/pubspec.lock
+D	backend/pubspec.yaml
+D	backend/test/widget_test.dart
+
+commit c74551e3ccacb40047dd2ec9c3807b0689b041a0
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue May 30 22:54:29 2023 +0200
+
+    build: version 1.0.0
+
+M	README.md
+D	android/.gitignore
+D	android/app/build.gradle
+D	android/app/src/debug/AndroidManifest.xml
+D	android/app/src/main/AndroidManifest.xml
+D	android/app/src/main/kotlin/com/example/firstapp/MainActivity.kt
+D	android/app/src/main/res/drawable-hdpi/ic_launcher_foreground.png
+D	android/app/src/main/res/drawable-mdpi/ic_launcher_foreground.png
+D	android/app/src/main/res/drawable-v21/launch_background.xml
+D	android/app/src/main/res/drawable-xhdpi/ic_launcher_foreground.png
+D	android/app/src/main/res/drawable-xxhdpi/ic_launcher_foreground.png
+D	android/app/src/main/res/drawable-xxxhdpi/ic_launcher_foreground.png
+D	android/app/src/main/res/drawable/launch_background.xml
+D	android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+D	android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+D	android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+D	android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+D	android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+D	android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+D	android/app/src/main/res/values-night/styles.xml
+D	android/app/src/main/res/values/colors.xml
+D	android/app/src/main/res/values/styles.xml
+D	android/app/src/profile/AndroidManifest.xml
+D	android/build.gradle
+D	android/gradle.properties
+D	android/gradle/wrapper/gradle-wrapper.properties
+D	android/settings.gradle
+R100	assets/logosca6-pb.png	assets/cloudcircle-pb.png
+R100	assets/logosca6.png	assets/cloudcircle.png
+A	backend/.gitignore
+A	backend/.metadata
+A	backend/README.md
+A	backend/analysis_options.yaml
+A	backend/ios/.gitignore
+A	backend/ios/Flutter/AppFrameworkInfo.plist
+A	backend/ios/Flutter/Debug.xcconfig
+A	backend/ios/Flutter/Release.xcconfig
+A	backend/ios/Runner.xcodeproj/project.pbxproj
+A	backend/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+A	backend/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+A	backend/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+A	backend/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+A	backend/ios/Runner.xcworkspace/contents.xcworkspacedata
+A	backend/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+A	backend/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+A	backend/ios/Runner/AppDelegate.swift
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png
+A	backend/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png
+A	backend/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json
+A	backend/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png
+A	backend/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png
+A	backend/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png
+A	backend/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md
+A	backend/ios/Runner/Base.lproj/LaunchScreen.storyboard
+A	backend/ios/Runner/Base.lproj/Main.storyboard
+A	backend/ios/Runner/Info.plist
+A	backend/ios/Runner/Runner-Bridging-Header.h
+A	backend/ios/Runner/Runner.entitlements
+A	backend/ios/RunnerTests/RunnerTests.swift
+A	backend/lib/main.dart
+A	backend/pubspec.lock
+A	backend/pubspec.yaml
+A	backend/test/widget_test.dart
+M	ios/Runner.xcodeproj/project.pbxproj
+M	ios/Runner/Info.plist
+M	lib/home.dart
+M	lib/main.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/main.dart
+M	lib/pages/clock/risk.dart
+M	lib/pages/meditation/meditation.dart
+M	lib/pages/triggers/triggers.dart
+M	lib/paginator.dart
+M	lib/provider/login/login.dart
+M	lib/provider/theme/theme.dart
+M	lib/subpages/login.dart
+M	lib/subpages/logout.dart
+M	lib/subpages/profile.dart
+M	lib/subpages/register.dart
+M	lib/tokens/topbar.dart
+M	macos/Runner.xcodeproj/project.pbxproj
+M	macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+M	macos/Runner/Configs/AppInfo.xcconfig
+M	pubspec.yaml
+
+commit 43a00157a3980859efcd073c017f15ce488936cc
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue May 30 08:46:42 2023 +0200
+
+    feat: auth hydration and theme sync
+
+A	backend/supabase/migrations/20230529165901_add_profile_theme.sql
+M	lib/home.dart
+M	lib/main.dart
+M	lib/pages/clock/main.dart
+M	lib/provider/login/login.dart
+M	lib/provider/theme/colors.dart
+A	lib/storage/local.dart
+M	lib/storage/profiles.dart
+M	lib/subpages/profile.dart
+M	lib/tokens/topbar.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit 6e4f526e6e77f4e3492df9413ab78f8ba5b11796
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon May 29 21:40:14 2023 +0200
+
+    style: apply formating
+
+M	lib/home.dart
+M	lib/main.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/risk.dart
+D	lib/pages/diary/diary.dart
+M	lib/pages/meditation/meditation.dart
+M	lib/pages/triggers/triggers.dart
+M	lib/provider/theme/colors.dart
+M	lib/provider/theme/theme.dart
+M	lib/subpages/login.dart
+M	lib/subpages/logout.dart
+M	lib/subpages/profile.dart
+M	lib/tokens/topbar.dart
+
+commit ad59d0a918ce026eb2a9a3b43c221ce883e99127
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon May 29 20:24:01 2023 +0200
+
+    Initial commit
+
+M	lib/pages/clock/countdown.dart
+M	lib/subpages/login.dart
+M	lib/subpages/profile.dart
+
+commit b549985e69b9b8a5a3d97dfa6d3121af92b9e88d
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun May 28 18:39:02 2023 +0200
+
+    feat: count down reset
+
+M	lib/main.dart
+M	lib/pages/clock/main.dart
+M	lib/pages/diary/diary.dart
+D	lib/pages/triggers/diary.dart
+M	lib/pages/triggers/triggers.dart
+M	lib/provider/login/login.dart
+M	lib/storage/profiles.dart
+M	lib/subpages/profile.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit 5fb6a980cdf4d42dc2b4e947b367cca8ecded69d
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun May 28 17:52:08 2023 +0200
+
+    feat: add migration for smoking time
+
+M	backend/supabase/migrations/20230415112122_create_profiles.sql
+A	backend/supabase/migrations/20230528154220_add_no_smoking_time.sql
+
+commit f86359967098221f3b0cdc0e1d43c8549561ab49
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun May 28 17:42:39 2023 +0200
+
+    feat: theming
+
+M	lib/home.dart
+M	lib/pages/clock/countdown.dart
+M	lib/pages/clock/main.dart
+M	lib/pages/clock/risk.dart
+D	lib/pages/diary copy/diary.dart
+M	lib/pages/diary/diary.dart
+M	lib/pages/meditation/meditation.dart
+M	lib/pages/triggers/diary.dart
+M	lib/pages/triggers/triggers.dart
+M	lib/paginator.dart
+M	lib/provider/login/login.dart
+M	lib/provider/theme/colors.dart
+M	lib/provider/theme/theme.dart
+M	lib/storage/profiles.dart
+M	lib/subpages/login.dart
+M	lib/subpages/logout.dart
+M	lib/subpages/profile.dart
+M	lib/subpages/register.dart
+M	lib/tokens/icons.dart
+M	lib/tokens/topbar.dart
+
+commit c8c8d35d99eb583154004acb337fb142cdc4e303
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun May 28 16:12:09 2023 +0200
+
+    feat: screens management
+
+M	lib/home.dart
+R099	lib/pages/main/countdown.dart	lib/pages/clock/countdown.dart
+R091	lib/pages/main/page.dart	lib/pages/clock/main.dart
+R100	lib/pages/main/risk.dart	lib/pages/clock/risk.dart
+A	lib/pages/diary copy/diary.dart
+A	lib/pages/diary/diary.dart
+D	lib/pages/main/paginator.dart
+M	lib/pages/meditation/meditation.dart
+A	lib/pages/triggers/diary.dart
+A	lib/pages/triggers/triggers.dart
+A	lib/paginator.dart
+R100	lib/pages/main/pages/login.dart	lib/subpages/login.dart
+R100	lib/pages/main/pages/logout.dart	lib/subpages/logout.dart
+R100	lib/pages/main/pages/profile.dart	lib/subpages/profile.dart
+R100	lib/pages/main/pages/register.dart	lib/subpages/register.dart
+M	lib/tokens/measurable.dart
+R060	lib/pages/main/topbar.dart	lib/tokens/topbar.dart
+
+commit c884f6a322a11c342dd746ebb76bb45ec6ad4ef9
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun May 28 13:59:01 2023 +0200
+
+    feat: very not bad risk widgets
+
+A	assets/icons/assignment_turned_in.svg
+A	assets/icons/done.svg
+A	assets/icons/expand_more.svg
+A	assets/icons/home.svg
+A	assets/icons/info.svg
+A	assets/icons/timer.svg
+A	assets/icons/verified.svg
+M	lib/home.dart
+M	lib/pages/main/countdown.dart
+M	lib/pages/main/page.dart
+M	lib/pages/main/risk.dart
+M	lib/tokens/icons.dart
+A	lib/tokens/measurable.dart
+M	pubspec.yaml
+
+commit d4c5d81ef3422429fe7dcda92f9ddfd9ad467379
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Thu May 25 20:28:01 2023 +0200
+
+    feat: CO risks
+
+A	assets/icons/humidity_percentage.svg
+M	lib/pages/main/countdown.dart
+M	lib/pages/main/page.dart
+A	lib/pages/main/risk.dart
+M	pubspec.yaml
+
+commit e53458db0b0c5e9842b770a784ae9141f837d837
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue May 23 20:22:29 2023 +0200
+
+    feat: risks widget
+
+A	assets/icons/cardiology.svg
+A	assets/icons/heart_check.svg
+M	lib/pages/main/countdown.dart
+M	lib/pages/main/page.dart
+M	pubspec.yaml
+
+commit a038df854b427bb6e845e29f5ec37cdd418a772b
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun May 21 18:56:10 2023 +0200
+
+    feat: butons for testing timer
+
+M	lib/pages/main/countdown.dart
+M	lib/pages/main/page.dart
+M	lib/pages/main/topbar.dart
+
+commit 125be326d1df392ca32e332230074f81482336a7
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun May 21 16:50:38 2023 +0200
+
+    fix: right coloring in appbar for dark theme
+
+M	lib/home.dart
+M	lib/pages/main/topbar.dart
+M	lib/provider/theme/theme.dart
+
+commit 265f4d7f934f28983e9b9d2cf95c9bbd049d2f12
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun May 21 14:05:18 2023 +0200
+
+    feat: simplify themes
+
+M	lib/provider/theme/colors.dart
+
+commit 878fc68aec5d84185d84212bf8011ad3f83cdb6c
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun May 21 13:57:20 2023 +0200
+
+    feat: nailed topbar
+
+A	assets/icons/settings.svg
+M	ios/Podfile.lock
+M	ios/Runner.xcodeproj/project.pbxproj
+M	lib/home.dart
+M	lib/pages/main/countdown.dart
+M	lib/pages/main/page.dart
+M	lib/pages/main/topbar.dart
+M	lib/provider/theme/theme.dart
+M	lib/tokens/cardrope.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit 306a11f7cd6ebf1df91d2339b6b591a53067e6cb
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Fri May 19 22:21:44 2023 +0200
+
+    feat: countdown
+
+M	lib/home.dart
+M	lib/main.dart
+A	lib/pages/main/countdown.dart
+A	lib/pages/main/page.dart
+R100	lib/pages/main/pages/sub/login.dart	lib/pages/main/pages/login.dart
+R100	lib/pages/main/pages/sub/logout.dart	lib/pages/main/pages/logout.dart
+R100	lib/pages/main/pages/sub/profile.dart	lib/pages/main/pages/profile.dart
+R100	lib/pages/main/pages/sub/register.dart	lib/pages/main/pages/register.dart
+R086	lib/pages/main/main.dart	lib/pages/main/paginator.dart
+R091	lib/pages/main/pages/main.dart	lib/pages/main/topbar.dart
+M	lib/provider/theme/theme.dart
+M	lib/tokens/cardrope.dart
+
+commit ae06f6aa6bd31dbd1b04f613d9ed48cd2e5731ea
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Fri May 19 20:45:42 2023 +0200
+
+    fix: run dart fix apply
+
+M	lib/pages/main/pages/main.dart
+M	lib/pages/main/pages/sub/logout.dart
+
+commit d134b1086440d226093fcdbc6e9ae8ecb680d797
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Fri May 19 20:44:00 2023 +0200
+
+    feat: remove email
+
+M	backend/supabase/migrations/20230415112122_create_profiles.sql
+M	lib/pages/main/pages/sub/profile.dart
+M	lib/provider/login/login.dart
+M	lib/storage/profiles.dart
+
+commit 68bd72afb4cdf27ba8b455d080ea2a7119516db9
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Fri May 19 20:29:10 2023 +0200
+
+    feat: profile sync
+
+M	backend/supabase/migrations/20230415112122_create_profiles.sql
+M	lib/auth/auth.dart
+M	lib/pages/main/main.dart
+M	lib/pages/main/pages/main.dart
+A	lib/pages/main/pages/sub/login.dart
+A	lib/pages/main/pages/sub/logout.dart
+A	lib/pages/main/pages/sub/profile.dart
+R077	lib/pages/main/pages/account.dart	lib/pages/main/pages/sub/register.dart
+M	lib/pages/meditation/meditation.dart
+M	lib/provider/login/login.dart
+M	lib/storage/profiles.dart
+
+commit 27f78c9e4d70427442372f8c9f7a37d5e59d816f
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed May 17 23:02:19 2023 +0200
+
+    chore: catch up
+
+M	lib/main.dart
+M	lib/pages/main/main.dart
+M	lib/pages/main/pages/account.dart
+M	lib/pages/main/pages/main.dart
+M	lib/provider/theme/theme.dart
+M	lib/tokens/cardrope.dart
+M	macos/Flutter/GeneratedPluginRegistrant.swift
+M	macos/Podfile.lock
+M	pubspec.lock
+
+commit 7c2fb5335edbda0060459c42fa9ec0aa9a82aee7
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Wed Apr 26 22:07:41 2023 +0200
+
+    feat: animated main drawer
+
+M	lib/pages/main/main.dart
+M	lib/pages/main/pages/main.dart
+M	lib/tokens/cardrope.dart
+
+commit 720cf5fb0c3432a146730c3acaffcdb71448345c
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Tue Apr 25 21:47:43 2023 +0200
+
+    feat: better main screen navigation panel
+
+A	assets/icons/back.svg
+A	assets/icons/cancel.svg
+A	assets/icons/palette.svg
+M	lib/pages/main/main.dart
+A	lib/pages/main/pages/account.dart
+D	lib/pages/main/pages/login.dart
+M	lib/pages/main/pages/main.dart
+A	lib/tokens/cardrope.dart
+D	lib/tokens/select.dart
+M	pubspec.yaml
+
+commit bbb04ab9a57da7322a128695fdb148a43bbfe326
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Thu Apr 20 21:19:51 2023 +0200
+
+    feat: first login form
+
+D	lib/constants.dart
+M	lib/home.dart
+M	lib/pages/main/main.dart
+A	lib/pages/main/pages/login.dart
+A	lib/pages/main/pages/main.dart
+D	lib/readme.md
+A	lib/tokens/input.dart
+
+commit 75329d14645f067c45aa9a554272e4271bfe4010
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Thu Apr 20 20:46:50 2023 +0200
+
+    feat: new select widget
+
+M	lib/home.dart
+M	lib/pages/main/main.dart
+M	lib/pages/meditation/meditation.dart
+R100	lib/icons.dart	lib/tokens/icons.dart
+A	lib/tokens/select.dart
+
+commit b2404957f0e962e20ec6f7b856e3fc8b475fc59d
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon Apr 17 23:16:15 2023 +0200
+
+    feat: dropdown on mainscreen, themes
+
+A	assets/icons/mode_dark.svg
+A	assets/icons/mode_light.svg
+A	assets/icons/more.svg
+M	lib/pages/main/main.dart
+A	lib/provider/theme/colors.dart
+M	lib/provider/theme/theme.dart
+M	pubspec.yaml
+
+commit b5913e25261a80e07961de0add450958361ecb4b
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon Apr 17 22:49:17 2023 +0200
+
+    feat: main screen
+
+D	lib/example/color_palettes_screen.dart
+D	lib/example/component_screen.dart
+D	lib/example/constants.dart
+D	lib/example/elevation_screen.dart
+D	lib/example/home.dart
+D	lib/example/typography_screen.dart
+M	lib/home.dart
+M	lib/main.dart
+A	lib/pages/main/main.dart
+R058	lib/provider.dart	lib/provider/login/login.dart
+A	lib/provider/theme/theme.dart
+M	lib/storage/profiles.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit 613ba4862e45040aa6ec24114e98992f70083b41
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon Apr 17 21:23:03 2023 +0200
+
+    feat: look not bad on IOS
+
+M	lib/home.dart
+M	lib/main.dart
+
+commit 46988220a7cf53f394a49fb29675e4aa9a6a4ef6
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon Apr 17 21:09:07 2023 +0200
+
+    chore: rename app
+
+M	README.md
+M	android/app/build.gradle
+M	android/app/src/debug/AndroidManifest.xml
+M	android/app/src/main/AndroidManifest.xml
+M	android/app/src/main/kotlin/com/example/firstapp/MainActivity.kt
+M	android/app/src/profile/AndroidManifest.xml
+A	assets/logosca6-pb.png
+M	ios/Podfile.lock
+M	ios/Runner.xcodeproj/project.pbxproj
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-50x50@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-50x50@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png
+M	ios/Runner/Info.plist
+M	lib/home.dart
+M	lib/main.dart
+M	lib/pages/meditation/meditation.dart
+M	lib/provider.dart
+D	linux/.gitignore
+D	linux/CMakeLists.txt
+D	linux/flutter/CMakeLists.txt
+D	linux/flutter/generated_plugin_registrant.cc
+D	linux/flutter/generated_plugin_registrant.h
+D	linux/flutter/generated_plugins.cmake
+D	linux/main.cc
+D	linux/my_application.cc
+D	linux/my_application.h
+M	macos/Runner.xcodeproj/project.pbxproj
+M	macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+M	macos/Runner/Configs/AppInfo.xcconfig
+M	pubspec.yaml
+D	web/favicon.png
+D	web/icons/Icon-192.png
+D	web/icons/Icon-512.png
+D	web/icons/Icon-maskable-192.png
+D	web/icons/Icon-maskable-512.png
+D	web/index.html
+D	web/manifest.json
+D	windows/.gitignore
+D	windows/CMakeLists.txt
+D	windows/flutter/CMakeLists.txt
+D	windows/flutter/generated_plugin_registrant.cc
+D	windows/flutter/generated_plugin_registrant.h
+D	windows/flutter/generated_plugins.cmake
+D	windows/runner/CMakeLists.txt
+D	windows/runner/Runner.rc
+D	windows/runner/flutter_window.cpp
+D	windows/runner/flutter_window.h
+D	windows/runner/main.cpp
+D	windows/runner/resource.h
+D	windows/runner/resources/app_icon.ico
+D	windows/runner/runner.exe.manifest
+D	windows/runner/utils.cpp
+D	windows/runner/utils.h
+D	windows/runner/win32_window.cpp
+D	windows/runner/win32_window.h
+
+commit 1b00e220cd3a646c32055260ee7b6c1bf7aa3ddb
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon Apr 17 20:54:52 2023 +0200
+
+    feat: generate icons
+
+A	android/app/src/main/res/drawable-hdpi/ic_launcher_foreground.png
+A	android/app/src/main/res/drawable-mdpi/ic_launcher_foreground.png
+A	android/app/src/main/res/drawable-xhdpi/ic_launcher_foreground.png
+A	android/app/src/main/res/drawable-xxhdpi/ic_launcher_foreground.png
+A	android/app/src/main/res/drawable-xxxhdpi/ic_launcher_foreground.png
+A	android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+M	android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+M	android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+M	android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+M	android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+M	android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+A	android/app/src/main/res/values/colors.xml
+M	assets/logosca6.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-50x50@1x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-50x50@2x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@1x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@1x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png
+M	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png
+M	macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+M	macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png
+M	macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png
+M	macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png
+M	macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png
+M	macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png
+M	macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png
+M	macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png
+M	pubspec.yaml
+M	windows/runner/resources/app_icon.ico
+
+commit db2e358f126170ed67280f0516a378f9b154c02a
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon Apr 17 19:47:51 2023 +0200
+
+    feat: icons
+
+A	assets/logosca6.png
+A	assets/opaqring.png
+M	pubspec.lock
+M	pubspec.yaml
+
+commit 3f9fc84e782af5b99fcfc715acdfca8e5a34055d
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sat Apr 15 15:09:05 2023 +0200
+
+    feat: block and supabase integration
+
+M	lib/auth/auth.dart
+M	lib/home.dart
+M	lib/main.dart
+M	lib/provider.dart
+M	lib/storage/profiles.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit c9765af79cbae93d0637143785baa600060b3ca9
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sat Apr 15 14:24:03 2023 +0200
+
+    fix: internet connection permission
+
+M	android/app/src/main/AndroidManifest.xml
+M	lib/main.dart
+M	macos/Runner/DebugProfile.entitlements
+M	macos/Runner/Release.entitlements
+
+commit d2666c8b01953f4f9921ca3757ea9260f02a7a7b
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sat Apr 15 14:21:18 2023 +0200
+
+    feat: add supabase backend
+
+A	backend/supabase/.gitignore
+A	backend/supabase/config.toml
+A	backend/supabase/migrations/20230415112122_create_profiles.sql
+A	backend/supabase/seed.sql
+A	lib/auth/auth.dart
+M	lib/main.dart
+A	lib/storage/profiles.dart
+M	macos/Flutter/GeneratedPluginRegistrant.swift
+M	macos/Podfile.lock
+M	pubspec.lock
+M	pubspec.yaml
+M	windows/flutter/generated_plugin_registrant.cc
+M	windows/flutter/generated_plugins.cmake
+
+commit e5e467fda5a819e81cf0130146e9acfa04701e38
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Fri Apr 14 23:08:10 2023 +0200
+
+    feat: icons
+
+A	assets/icons/close.svg
+A	assets/icons/cognition.svg
+A	assets/icons/help.svg
+A	assets/icons/mindfulness.svg
+A	assets/icons/psychology.svg
+A	assets/icons/relax.svg
+A	assets/icons/stickynote.svg
+M	lib/home.dart
+A	lib/icons.dart
+M	lib/pages/meditation/meditation.dart
+M	pubspec.lock
+M	pubspec.yaml
+
+commit 7847d44bb2bc426782a5da3dc8464c54ecea03de
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Fri Apr 14 22:31:13 2023 +0200
+
+    feat: ideal animation!
+
+M	lib/constants.dart
+M	lib/home.dart
+M	lib/main.dart
+M	lib/pages/meditation/meditation.dart
+
+commit 2461f41dc62e17f0944d651d8e93cbcc03a204fc
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Fri Apr 14 04:49:44 2023 +0200
+
+    feat: great animation!
+
+M	lib/constants.dart
+M	lib/home.dart
+M	lib/main.dart
+M	lib/pages/meditation/meditation.dart
+
+commit 36ad602c5de0fd243c63048d0d6e0e052569b671
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Sun Apr 9 00:31:12 2023 +0200
+
+    feat: breath animation
+
+A	ios/Podfile.lock
+M	ios/Runner.xcodeproj/project.pbxproj
+M	ios/Runner.xcworkspace/contents.xcworkspacedata
+M	lib/home.dart
+M	lib/main.dart
+A	lib/pages/meditation/meditation.dart
+A	lib/provider.dart
+M	macos/Podfile.lock
+M	pubspec.lock
+M	pubspec.yaml
+
+commit 729f8bf09aa3d4718a10090d2ae13f70968a1381
+Author: Nikolai Kiselev <nkpub@icloud.com>
+Date:   Mon Mar 27 21:14:48 2023 +0200
+
+    init
+
+A	.gitignore
+A	.metadata
+A	README.md
+A	analysis_options.yaml
+A	android/.gitignore
+A	android/app/build.gradle
+A	android/app/src/debug/AndroidManifest.xml
+A	android/app/src/main/AndroidManifest.xml
+A	android/app/src/main/kotlin/com/example/firstapp/MainActivity.kt
+A	android/app/src/main/res/drawable-v21/launch_background.xml
+A	android/app/src/main/res/drawable/launch_background.xml
+A	android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+A	android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+A	android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+A	android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+A	android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+A	android/app/src/main/res/values-night/styles.xml
+A	android/app/src/main/res/values/styles.xml
+A	android/app/src/profile/AndroidManifest.xml
+A	android/build.gradle
+A	android/gradle.properties
+A	android/gradle/wrapper/gradle-wrapper.properties
+A	android/settings.gradle
+A	ios/.gitignore
+A	ios/Flutter/AppFrameworkInfo.plist
+A	ios/Flutter/Debug.xcconfig
+A	ios/Flutter/Release.xcconfig
+A	ios/Podfile
+A	ios/Runner.xcodeproj/project.pbxproj
+A	ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+A	ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+A	ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+A	ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+A	ios/Runner.xcworkspace/contents.xcworkspacedata
+A	ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+A	ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+A	ios/Runner/AppDelegate.swift
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png
+A	ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png
+A	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json
+A	ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png
+A	ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png
+A	ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png
+A	ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md
+A	ios/Runner/Base.lproj/LaunchScreen.storyboard
+A	ios/Runner/Base.lproj/Main.storyboard
+A	ios/Runner/Info.plist
+A	ios/Runner/Runner-Bridging-Header.h
+A	lib/constants.dart
+A	lib/example/color_palettes_screen.dart
+A	lib/example/component_screen.dart
+A	lib/example/constants.dart
+A	lib/example/elevation_screen.dart
+A	lib/example/home.dart
+A	lib/example/typography_screen.dart
+A	lib/home.dart
+A	lib/main.dart
+A	lib/readme.md
+A	linux/.gitignore
+A	linux/CMakeLists.txt
+A	linux/flutter/CMakeLists.txt
+A	linux/flutter/generated_plugin_registrant.cc
+A	linux/flutter/generated_plugin_registrant.h
+A	linux/flutter/generated_plugins.cmake
+A	linux/main.cc
+A	linux/my_application.cc
+A	linux/my_application.h
+A	macos/.gitignore
+A	macos/Flutter/Flutter-Debug.xcconfig
+A	macos/Flutter/Flutter-Release.xcconfig
+A	macos/Flutter/GeneratedPluginRegistrant.swift
+A	macos/Podfile
+A	macos/Podfile.lock
+A	macos/Runner.xcodeproj/project.pbxproj
+A	macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+A	macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+A	macos/Runner.xcworkspace/contents.xcworkspacedata
+A	macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+A	macos/Runner/AppDelegate.swift
+A	macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+A	macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png
+A	macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png
+A	macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png
+A	macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png
+A	macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png
+A	macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png
+A	macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png
+A	macos/Runner/Base.lproj/MainMenu.xib
+A	macos/Runner/Configs/AppInfo.xcconfig
+A	macos/Runner/Configs/Debug.xcconfig
+A	macos/Runner/Configs/Release.xcconfig
+A	macos/Runner/Configs/Warnings.xcconfig
+A	macos/Runner/DebugProfile.entitlements
+A	macos/Runner/Info.plist
+A	macos/Runner/MainFlutterWindow.swift
+A	macos/Runner/Release.entitlements
+A	pubspec.lock
+A	pubspec.yaml
+A	web/favicon.png
+A	web/icons/Icon-192.png
+A	web/icons/Icon-512.png
+A	web/icons/Icon-maskable-192.png
+A	web/icons/Icon-maskable-512.png
+A	web/index.html
+A	web/manifest.json
+A	windows/.gitignore
+A	windows/CMakeLists.txt
+A	windows/flutter/CMakeLists.txt
+A	windows/flutter/generated_plugin_registrant.cc
+A	windows/flutter/generated_plugin_registrant.h
+A	windows/flutter/generated_plugins.cmake
+A	windows/runner/CMakeLists.txt
+A	windows/runner/Runner.rc
+A	windows/runner/flutter_window.cpp
+A	windows/runner/flutter_window.h
+A	windows/runner/main.cpp
+A	windows/runner/resource.h
+A	windows/runner/resources/app_icon.ico
+A	windows/runner/runner.exe.manifest
+A	windows/runner/utils.cpp
+A	windows/runner/utils.h
+A	windows/runner/win32_window.cpp
+A	windows/runner/win32_window.h
